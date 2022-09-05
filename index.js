@@ -2,7 +2,7 @@ const { resolveSoa } = require('dns');
 const http = require('http');
 const hostname = 'localhost';
 
-const port = 3000;
+const port = 443;
 
 const server = http.createServer((req, res) => {
     res.statusCode = 200;
